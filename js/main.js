@@ -61,25 +61,13 @@ document.addEventListener('DOMContentLoaded', () => {
       },
     });
 
-    let gallerySwiper = null;
-    const mobileGalleryMedia = window.matchMedia('(max-width: 767px)');
-
-    const setupGallerySwiper = () => {
-      if (!mobileGalleryMedia.matches) {
-        if (gallerySwiper) {
-          gallerySwiper.destroy(true, true);
-          gallerySwiper = null;
-        }
-        return;
-      }
-
-      if (gallerySwiper) return;
-
-      gallerySwiper = new Swiper('.gallery-mobile', {
-        loop: false,
+    document.querySelectorAll('.product-swiper').forEach(productSwiper => {
+      new Swiper(productSwiper, {
+        loop: true,
         slidesPerView: 1,
-        spaceBetween: 12,
+        spaceBetween: 0,
         speed: 700,
+        autoplay: { delay: 3200, disableOnInteraction: false },
         allowTouchMove: true,
         simulateTouch: true,
         grabCursor: true,
@@ -88,17 +76,14 @@ document.addEventListener('DOMContentLoaded', () => {
         observer: true,
         observeParents: true,
         pagination: {
-          el: '.gallery-mobile-count',
+          el: productSwiper.querySelector('.product-swiper-count'),
           type: 'custom',
           renderCustom(_swiper, current, total) {
             return `&lt;${current}/${total}&gt;`;
           },
         },
       });
-    };
-
-    setupGallerySwiper();
-    mobileGalleryMedia.addEventListener('change', setupGallerySwiper);
+    });
   }
 
   /* ── AOS ── */
