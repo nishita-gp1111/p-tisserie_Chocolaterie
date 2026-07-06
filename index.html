@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="pâtisserie Chocolaterie art.k — 大阪府茨木市のフランス菓子・チョコレート専門店。味覚・視覚・香りで五感を刺激する、日常のなかのアートのようなお菓子をお届けします。">
+<title>pâtisserie Chocolaterie art.k | 大阪・茨木市のフランス菓子・チョコレート専門店</title>
+<!-- Bootstrap 5 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+<!-- Swiper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+<!-- AOS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css">
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Cormorant+Garamond:wght@300;400;500;600&family=Noto+Serif+JP:wght@300;400;600&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<!-- Custom CSS -->
+<link rel="stylesheet" href="css/style.css?v=20260625-01">
+</head>
+<body>
+
+<!-- ==========================================
+HEADER
+============================================================ -->
+<header id="site-header">
+  <div class="header-inner container-xxl">
+    <a href="#hero" class="header-logo" aria-label="pâtisserie Chocolaterie art.k">
+      <img src="img/logo.webp" alt="pâtisserie Chocolaterie art.k" class="header-logo-image">
+    </a>
+    <ul class="nav-list">
+      <li><a href="#concept">CONCEPT</a></li>
+      <li><a href="#products">PRODUCTS</a></li>
+      <li><a href="#gallery">GALLERY</a></li>
+      <li><a href="#access">ACCESS</a></li>
+      <li><a href="https://shop.patisserie-chocolaterie-artk.com" target="_blank" rel="noopener" class="nav-shop">ONLINE SHOP</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="メニューを開く">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>
+
+<!-- SP Drawer Overlay -->
+<div class="drawer-overlay" id="drawerOverlay"></div>
+<!-- SP Drawer Menu -->
+<nav class="drawer" id="drawer" aria-hidden="true">
+  <button class="drawer-close" id="drawerClose" aria-label="メニューを閉じる">
+    <i class="fas fa-times"></i>
+  </button>
+  <ul class="drawer-list">
+    <li><a href="#concept" class="drawer-link">CONCEPT</a></li>
+    <li><a href="#products" class="drawer-link">PRODUCTS</a></li>
+    <li><a href="#gallery" class="drawer-link">GALLERY</a></li>
+    <li><a href="#access" class="drawer-link">ACCESS</a></li>
+    <li><a href="https://shop.patisserie-chocolaterie-artk.com" target="_blank" rel="noopener" class="drawer-link drawer-shop">ONLINE SHOP</a></li>
+  </ul>
+  <div class="drawer-footer">
+    <a href="https://www.instagram.com/art.k_osaka/" target="_blank" rel="noopener noreferrer" class="drawer-instagram">
+      <i class="fab fa-instagram"></i>
+      @art.k_osaka
+    </a>
+    <p class="drawer-hours">11:00 〜 19:00 ／ 不定休</p>
+  </div>
+</nav>
+
+<!-- ============================================================
+HERO SLIDER
+============================================================ -->
+<section id="hero">
+  <div class="swiper hero-swiper">
+    <div class="swiper-wrapper">
+      <!-- Slide 1 -->
+      <div class="swiper-slide">
+        <div class="hero-slide" style="background-image: url('img/cms_6460_bg.webp')">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <p class="hero-eyebrow">pâtisserie Chocolaterie art.k</p>
+            <h1 class="hero-title">本場パリの味わいを<br>茨木市から。</h1>
+            <p class="hero-desc">厳選したカカオのボンボンショコラと、<br class="sp-only">本場仕込みの焼き菓子を中心に、<br>職人技が光るフランス菓子をお届けします。</p>
+            <div class="hero-actions">
+              <a href="#concept" class="hero-btn">CONCEPT</a>
+              <a href="https://shop.patisserie-chocolaterie-artk.com" target="_blank" rel="noopener" class="hero-btn hero-btn-shop">ONLINE SHOP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <div class="hero-slide hero-slide-reward" style="background-image: url('img/line_oa_chat_260625_112435.jpg')">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <p class="hero-eyebrow">pâtisserie Chocolaterie art.k</p>
+            <h1 class="hero-title">特別な日も、<br>日常のご褒美も。</h1>
+            <p class="hero-desc">焼き菓子・チョコレート・<br class="sp-only">ギフトを豊富に<br>ご用意しています。</p>
+            <div class="hero-actions">
+              <a href="#products" class="hero-btn">PRODUCTS</a>
+              <a href="https://shop.patisserie-chocolaterie-artk.com" target="_blank" rel="noopener" class="hero-btn hero-btn-shop">ONLINE SHOP</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <div class="hero-slide" style="background-image: url('img/cms_6095.webp')">
+          <div class="hero-overlay"></div>
+          <div class="hero-content">
+            <p class="hero-eyebrow">pâtisserie Chocolaterie art.k</p>
+            <h1 class="hero-title">ギフトにも<br>オンライン購入も。</h1>
+            <p class="hero-desc">店舗でのお買い物はもちろん、<br class="sp-only">オンラインショップでの<br>ご注文も承ります。</p>
+            <div class="hero-actions">
+              <a href="https://shop.patisserie-chocolaterie-artk.com" target="_blank" rel="noopener" class="hero-btn hero-btn-shop">ONLINE SHOP</a>
+              <a href="#products" class="hero-btn">PRODUCTS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+  <a href="#concept" class="hero-scroll" aria-label="下へスクロール">
+    <span class="hero-scroll-bar"></span>
+  </a>
+</section>
+
+<!-- ============================================================
+CONCEPT
+============================================================ -->
+<section id="concept" class="section-concept">
+  <div class="container-xxl">
+    <div class="row align-items-center g-lg-5 g-4">
+      <div class="col-lg-6" data-aos="fade-right" data-aos-duration="900">
+        <div class="concept-image-wrap">
+          <img src="img/line_oa_chat_260625_105847.jpg" alt="pâtisserie Chocolaterie art.k ロゴ" class="concept-image concept-image-logo">
+          <div class="concept-image-deco"></div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-aos="fade-left" data-aos-duration="900" data-aos-delay="100">
+        <div class="concept-content">
+          <p class="section-label">CONCEPT</p>
+          <h2 class="section-title-text">お菓子に、ひと匙の芸術を</h2>
+          <blockquote class="concept-lead">
+            店名に刻まれた art.k（アルカ）。それは、シェフ・北島氏がフランス・パリのモンマルトルで肌で感じた「自由で洗練された芸術の空気（art）」と、自身の職人としての生き様（k）を融合させた言葉です。
+          </blockquote>
+          <div class="concept-text">
+            <p>私たちは、お菓子を単なる甘味ではなく、味覚・視覚・香りで五感を刺激する「日常のなかのアート」と捉えています。</p>
+            <p>パリの街角で出会うようなときめきと、確かな技術が紡ぐ本物の味わいを、皆さまの日常にお届けします。</p>
+          </div>
+          <div class="concept-actions">
+            <a href="https://shop.patisserie-chocolaterie-artk.com" target="_blank" rel="noopener" class="btn-outline-dark-custom">オンラインショップへ <i class="fas fa-arrow-right ms-2"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+PRODUCTS
+============================================================ -->
+<section id="products" class="section-products">
+  <div class="container-xxl">
+    <div class="section-header text-center" data-aos="fade-up">
+      <p class="section-label">PRODUCTS</p>
+      <h2 class="section-title-text">こだわりの品々</h2>
+      <p class="section-sub">厳選した素材で作るフランス菓子とチョコレート</p>
+    </div>
+    <div class="row g-4 mt-2">
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="50">
+        <article class="product-card">
+          <div class="product-card-image">
+            <img src="img/line_oa_chat_260625_112025.jpg" alt="ボンボンショコラ">
+            <span class="product-badge">CHOCOLATE</span>
+          </div>
+          <div class="product-card-body">
+            <p class="product-card-en">Bonbon Chocolat</p>
+            <h3 class="product-card-title">ボンボンショコラ</h3>
+            <p class="product-card-desc">本場の技法が織りなす、彩り豊かなボンボンショコラ。カカオの繊細な香りと口溶けをお楽しみください。季節ごとの限定フレーバーもご用意しております。</p>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+        <article class="product-card">
+          <div class="product-card-image">
+            <img src="img/line_oa_chat_260625_111819.jpg" alt="焼き菓子">
+            <span class="product-badge">BAKED</span>
+          </div>
+          <div class="product-card-body">
+            <p class="product-card-en">Baked Sweets</p>
+            <h3 class="product-card-title">焼き菓子</h3>
+            <p class="product-card-desc">本場の製法で焼き上げた、香り高い焼き菓子の数々。日持ちもするため、贈り物やご自宅用のお茶菓子として幅広くお楽しみいただけます。</p>
+          </div>
+        </article>
+      </div>
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="150">
+        <article class="product-card">
+          <div class="product-card-image">
+            <img src="img/cms_6095.webp" alt="詰め合わせギフト">
+            <span class="product-badge">GIFT</span>
+          </div>
+          <div class="product-card-body">
+            <p class="product-card-en">Gift</p>
+            <h3 class="product-card-title">ギフト</h3>
+            <p class="product-card-desc">アルカの魅力を詰め込んだギフトセット。お祝いや季節のご挨拶など、大切な方への贈り物にぜひご利用ください。</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+GALLERY
+============================================================ -->
+<section id="gallery" class="section-gallery">
+  <div class="container-xxl">
+    <div class="section-header text-center" data-aos="fade-up">
+      <p class="section-label">GALLERY</p>
+      <h2 class="section-title-text">ギャラリー</h2>
+    </div>
+    <div class="gallery-grid" data-aos="fade-up" data-aos-delay="100">
+      <div class="gallery-item"><img src="img/line_oa_chat_260625_111423.jpg" alt="ボンボンショコラ 1"></div>
+      <div class="gallery-item"><img src="img/line_oa_chat_260625_111436.jpg" alt="アートイメージ 1"></div>
+      <div class="gallery-item"><img src="img/line_oa_chat_260625_111449.jpg" alt="アートイメージ 2"></div>
+      <div class="gallery-item"><img src="img/line_oa_chat_260625_111510.jpg" alt="アートイメージ 3"></div>
+      <div class="gallery-item"><img src="img/line_oa_chat_260625_111524.jpg" alt="ボンボンショコラ 2"></div>
+      <div class="gallery-item"><img src="img/line_oa_chat_260625_111538.jpg" alt="焼き菓子"></div>
+    </div>
+    <div class="gallery-mobile swiper" data-aos="fade-up" data-aos-delay="100">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="gallery-item"><img src="img/line_oa_chat_260625_111423.jpg" alt="ボンボンショコラ 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="gallery-item"><img src="img/line_oa_chat_260625_111436.jpg" alt="アートイメージ 1"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="gallery-item"><img src="img/line_oa_chat_260625_111449.jpg" alt="アートイメージ 2"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="gallery-item"><img src="img/line_oa_chat_260625_111510.jpg" alt="アートイメージ 3"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="gallery-item"><img src="img/line_oa_chat_260625_111524.jpg" alt="ボンボンショコラ 2"></div>
+        </div>
+        <div class="swiper-slide">
+          <div class="gallery-item"><img src="img/line_oa_chat_260625_111538.jpg" alt="焼き菓子"></div>
+        </div>
+      </div>
+      <div class="gallery-mobile-count"></div>
+    </div>
+    <div class="text-center mt-4" data-aos="fade-up">
+      <a href="https://www.instagram.com/art.k_osaka/" target="_blank" rel="noopener" class="instagram-link">
+        <i class="fab fa-instagram"></i> @art.k_osaka でもっと見る
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+CONTACT / INFORMATION
+============================================================ -->
+<section id="contact" class="section-contact">
+  <div class="container-xxl">
+    <div class="section-header text-center" data-aos="fade-up">
+      <p class="section-label">INFORMATION</p>
+      <h2 class="section-title-text">最新情報・お問い合わせ</h2>
+      <p class="section-sub">最新のお知らせや商品情報はInstagramとオンラインショップでもご覧いただけます</p>
+    </div>
+    <div class="reservation-wrap" data-aos="fade-up">
+      <div class="reservation-banner">
+        <div class="reservation-icon">
+          <i class="fab fa-instagram"></i>
+        </div>
+        <div class="reservation-text">
+          <h3>最新情報はInstagramにて</h3>
+          <p>営業日や季節限定商品などの最新情報は、公式Instagramでご確認いただけます。</p>
+        </div>
+        <a href="https://www.instagram.com/art.k_osaka/" target="_blank" rel="noopener noreferrer" class="btn-instagram">
+          <i class="fab fa-instagram"></i>
+          @art.k_osaka を見る
+        </a>
+      </div>
+    </div>
+    <div class="online-shop-banner" data-aos="fade-up" data-aos-delay="80">
+      <div class="online-shop-content">
+        <div class="online-shop-icon">🛒</div>
+        <div class="online-shop-text">
+          <h3>オンラインショップ</h3>
+          <p>全国へお届け。クレジットカード・コンビニ決済など各種お支払い方法に対応しています。</p>
+        </div>
+        <a href="https://shop.patisserie-chocolaterie-artk.com" target="_blank" rel="noopener" class="btn-shop">
+          ショップを見る <i class="fas fa-external-link-alt ms-1"></i>
+        </a>
+      </div>
+    </div>
+    <div class="contact-form-panel" data-aos="fade-up" data-aos-delay="120">
+      <div class="contact-form-head">
+        <p class="section-label">CONTACT</p>
+        <h2 class="section-title-text">お問い合わせフォーム</h2>
+        <p class="section-sub">商品・ギフト・ご予約についてのお問い合わせはこちらからお送りください。</p>
+      </div>
+      <form class="contact-form js-contact-form" action="/api/contact" method="POST">
+        <p class="contact-form-hidden">
+          <label>Do not fill this out if you're human: <input name="bot-field"></label>
+        </p>
+        <div class="contact-form-step is-active" data-step="input">
+          <div class="contact-form-grid">
+            <div class="form-field">
+              <label for="contact-name">お名前</label>
+              <input type="text" id="contact-name" name="name" placeholder="例）山田 花子" required>
+            </div>
+            <div class="form-field">
+              <label for="contact-email">メールアドレス</label>
+              <input type="email" id="contact-email" name="email" placeholder="example@example.com" required>
+            </div>
+            <div class="form-field">
+              <label for="contact-tel">電話番号</label>
+              <input type="tel" id="contact-tel" name="tel" placeholder="例）090-1234-5678">
+            </div>
+            <div class="form-field">
+              <label for="contact-subject">お問い合わせ項目</label>
+              <select id="contact-subject" name="subject" required>
+                <option value="">選択してください</option>
+                <option value="商品について">商品について</option>
+                <option value="ギフトについて">ギフトについて</option>
+                <option value="ご予約について">ご予約について</option>
+                <option value="その他">その他</option>
+              </select>
+            </div>
+            <div class="form-field form-field-full">
+              <label for="contact-message">お問い合わせ内容</label>
+              <textarea id="contact-message" name="message" rows="6" placeholder="お問い合わせ内容をご入力ください。" required></textarea>
+            </div>
+            <div class="form-field form-field-full">
+              <label class="contact-consent">
+                <input type="checkbox" name="privacyAgree" value="1" required>
+                <span><a href="https://patisserie-chocolaterie-artk.jp/privacypolicy/" target="_blank" rel="noopener">個人情報の取り扱いについて</a>に同意する</span>
+              </label>
+            </div>
+          </div>
+          <div class="contact-form-actions">
+            <button type="button" class="contact-submit-btn js-contact-confirm">確認画面へ</button>
+            <p class="contact-note">このページ内で送信します。お急ぎの際は <a href="tel:0726654013">072-665-4013</a> までお電話ください。</p>
+          </div>
+        </div>
+        <div class="contact-form-step" data-step="confirm" aria-hidden="true">
+          <div class="contact-confirm-panel">
+            <p class="contact-confirm-label">CONFIRM</p>
+            <h3 class="contact-confirm-title">入力内容をご確認ください</h3>
+            <div class="contact-confirm-list">
+              <div class="contact-confirm-row">
+                <dt>お名前</dt>
+                <dd data-confirm="name"></dd>
+              </div>
+              <div class="contact-confirm-row">
+                <dt>メールアドレス</dt>
+                <dd data-confirm="email"></dd>
+              </div>
+              <div class="contact-confirm-row">
+                <dt>電話番号</dt>
+                <dd data-confirm="tel"></dd>
+              </div>
+              <div class="contact-confirm-row">
+                <dt>お問い合わせ項目</dt>
+                <dd data-confirm="subject"></dd>
+              </div>
+              <div class="contact-confirm-row contact-confirm-row-message">
+                <dt>お問い合わせ内容</dt>
+                <dd data-confirm="message"></dd>
+              </div>
+            </div>
+          </div>
+          <div class="contact-form-actions contact-form-actions-confirm">
+            <button type="button" class="btn-outline-dark-custom js-contact-back">修正する</button>
+            <button type="submit" class="contact-submit-btn">この内容で送信する</button>
+          </div>
+        </div>
+        <p class="contact-form-status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+ACCESS
+============================================================ -->
+<section id="access" class="section-access">
+  <div class="container-xxl">
+    <div class="section-header text-center" data-aos="fade-up">
+      <p class="section-label">ACCESS</p>
+      <h2 class="section-title-text">店舗情報・アクセス</h2>
+    </div>
+    <div class="row g-5 mt-1">
+      <!-- Info Column -->
+      <div class="col-lg-5" data-aos="fade-right" data-aos-duration="800">
+        <div class="access-info">
+          <div class="access-block">
+            <h3 class="access-block-title">
+              <i class="far fa-clock"></i> 営業時間
+            </h3>
+            <table class="hours-table">
+              <tbody>
+                <tr>
+                  <th>営業時間</th>
+                  <td>11:00 〜 19:00</td>
+                </tr>
+                <tr class="row-closed">
+                  <th>定休日</th>
+                  <td><span class="badge-closed">不定休</span><br><small>Instagramにて最新情報をご確認ください</small></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="access-block">
+            <h3 class="access-block-title">
+              <i class="fas fa-map-marker-alt"></i> 住所・アクセス
+            </h3>
+            <ul class="access-list">
+              <li>
+                <i class="fas fa-store"></i>
+                <span>〒567-0027 大阪府茨木市西田中町3-7</span>
+              </li>
+              <li>
+                <i class="fas fa-train"></i>
+                <span>JR茨木駅より徒歩15〜20分</span>
+              </li>
+              <li>
+                <i class="fas fa-square-parking"></i>
+                <span>当店の向かいに専用駐車場有り</span>
+              </li>
+              <li>
+                <i class="fas fa-car-side"></i>
+                <span>近隣にコインパーキング有り</span>
+              </li>
+            </ul>
+          </div>
+          <div class="access-block">
+            <h3 class="access-block-title">
+              <i class="fas fa-phone"></i> お電話
+            </h3>
+            <a href="tel:0726654013" class="access-tel">072-665-4013</a>
+          </div>
+          <div class="access-block access-sns-block">
+            <a href="https://www.instagram.com/art.k_osaka/" target="_blank" rel="noopener" class="access-instagram-btn">
+              <i class="fab fa-instagram"></i> Instagram @art.k_osaka
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- Map Column -->
+      <div class="col-lg-7" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3275.280718227733!2d135.56445647574975!3d34.824033872876115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6000fd8cbf1ad943%3A0x12a14b82d24939f8!2z44OR44OG44Kj44K544Oq44O844K344On44Kz44Op44OI44Oq44O844Ki44Or44Kr!5e0!3m2!1sja!2sjp!4v1781131694365!5m2!1sja!2sjp"
+            width="100%"
+            height="450"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="パティスリーショコラトリーアルカ アクセスマップ">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+FOOTER
+============================================================ -->
+<footer id="footer">
+  <div class="container-xxl">
+    <div class="footer-inner">
+      <div class="footer-logo-col">
+        <img src="img/logo.webp" alt="pâtisserie Chocolaterie art.k" class="footer-logo-image">
+        <p class="footer-tagline">
+          <span class="footer-tagline-title">「お菓子に、ひと匙の芸術を」</span>
+          <span class="footer-tagline-block">
+            店名に刻まれた art.k（アルカ）。<br class="sp-only">
+            それは、シェフ・北島氏がフランス・パリのモンマルトルで肌で感じた<br class="sp-only">
+            「自由で洗練された芸術の空気（art）」と、<br class="sp-only">
+            自身の職人としての生き様（k）を融合させた言葉です。
+          </span>
+          <span class="footer-tagline-block">
+            私たちは、お菓子を単なる甘味ではなく、<br class="sp-only">
+            味覚・視覚・香りで五感を刺激する<br class="sp-only">
+            「日常のなかのアート」と捉えています。<br class="sp-only">
+            パリの街角で出会うようなときめきと、<br class="sp-only">
+            確かな技術が紡ぐ本物の味わいを、<br class="sp-only">
+            皆さまの日常にお届けします。
+          </span>
+        </p>
+        <div class="footer-sns">
+          <a href="https://www.instagram.com/art.k_osaka/" target="_blank" rel="noopener noreferrer" class="footer-sns-link" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      <div class="footer-info-col">
+        <h4 class="footer-col-title">SHOP INFO</h4>
+        <ul class="footer-info-list">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            〒567-0027 大阪府茨木市西田中町3-7
+          </li>
+          <li>
+            <i class="far fa-clock"></i>
+            11:00 〜 19:00（不定休）
+          </li>
+          <li>
+            <i class="fas fa-train"></i>
+            JR茨木駅より徒歩15〜20分
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <a href="tel:0726654013">072-665-4013</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer-nav-col">
+        <h4 class="footer-col-title">MENU</h4>
+        <ul class="footer-nav-list">
+          <li><a href="#concept">CONCEPT</a></li>
+          <li><a href="#products">PRODUCTS</a></li>
+          <li><a href="#gallery">GALLERY</a></li>
+          <li><a href="#access">ACCESS</a></li>
+          <li><a href="https://shop.patisserie-chocolaterie-artk.com" target="_blank" rel="noopener">ONLINE SHOP</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 pâtisserie Chocolaterie art.k. All Rights Reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<a href="https://shop.patisserie-chocolaterie-artk.com" target="_blank" rel="noopener" class="mobile-shop-float" aria-label="オンラインショップへ移動">
+  <span class="mobile-shop-float-label">
+    <span class="mobile-shop-float-main">ONLINE SHOP</span>
+    <span class="mobile-shop-float-sub">全国配送・ギフト対応</span>
+  </span>
+</a>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script src="js/main.js?v=20260625-01"></script>
+</body>
+</html>
